@@ -1,3 +1,5 @@
+#Backend
+
 LearnStuffApi/.vs
 
 LearnStuffApi/Data/obj
@@ -15,3 +17,47 @@ LearnStuffApi/Services/obj
 
 LearnStuffApi/Shared/bin
 LearnStuffApi/Shared/obj
+
+LearnStuffApi/.idea
+
+#Frontend
+# Compiled output
+LearnStuffWeb/dist
+LearnStuffWeb/tmp
+LearnStuffWeb/out-tsc
+LearnStuffWeb/bazel-out
+
+# Node
+LearnStuffWeb/node_modules
+LearnStuffWeb/npm-debug.log
+LearnStuffWeb/yarn-error.log
+
+# IDEs and editors
+LearnStuffWeb/.idea/
+LearnStuffWeb/.project
+LearnStuffWeb/.classpath
+LearnStuffWeb/.c9/
+LearnStuffWeb/*.launch
+LearnStuffWeb/.settings/
+LearnStuffWeb/*.sublime-workspace
+
+# Visual Studio Code
+LearnStuffWeb/.vscode/*
+LearnStuffWeb/!.vscode/settings.json
+LearnStuffWeb/!.vscode/tasks.json
+LearnStuffWeb/!.vscode/launch.json
+LearnStuffWeb/!.vscode/extensions.json
+LearnStuffWeb/.history/*
+
+# Miscellaneous
+LearnStuffWeb/.angular/cache
+LearnStuffWeb/.sass-cache/
+LearnStuffWeb/connect.lock
+LearnStuffWeb/coverage
+LearnStuffWeb/libpeerconnection.log
+LearnStuffWeb/testem.log
+LearnStuffWeb/typings
+
+# System files
+LearnStuffWeb/.DS_Store
+LearnStuffWeb/Thumbs.db
