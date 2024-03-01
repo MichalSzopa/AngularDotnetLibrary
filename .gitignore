@@ -1,0 +1,17 @@
+LearnStuffApi/.vs
+
+LearnStuffApi/Data/obj
+LearnStuffApi/Data/bin
+LearnStuffApi/Data/sqliteDatabase.db
+
+LearnStuffApi/LearnStuffApi/bin
+LearnStuffApi/LearnStuffApi/obj
+
+LearnStuffApi/Repositories/bin
+LearnStuffApi/Repositories/obj
+
+LearnStuffApi/Services/bin
+LearnStuffApi/Services/obj
+
+LearnStuffApi/Shared/bin
+LearnStuffApi/Shared/obj
