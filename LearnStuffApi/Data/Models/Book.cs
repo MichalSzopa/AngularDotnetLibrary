@@ -6,6 +6,8 @@ public class Book
 
 	public int TitleId { get; set; }
 
+	public bool IsBorrowed { get; set; }
+
 	public virtual Title? Title { get; set; }
 
 	public virtual IEnumerable<Borrow>? Borrows { get; set; }

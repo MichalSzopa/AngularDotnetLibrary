@@ -8,7 +8,7 @@ namespace LearnStuffApi.Controllers
 	[ApiController]
 	public class AuthorController(IAuthorService authorService) : ControllerBase
 	{
-		[HttpPost]
+		[HttpPost(Name = "AddAuthor")]
 		[ProducesResponseType(StatusCodes.Status201Created)]
 		[ProducesResponseType(StatusCodes.Status400BadRequest)]
 		public async Task<IActionResult> AddAuthor(AddAuthorModel model)
@@ -17,7 +17,7 @@ namespace LearnStuffApi.Controllers
 			return CreatedAtAction(null, createdEntity);
 		}
 
-		[HttpGet]
+		[HttpGet(Name = "GetAllAuthors")]
 		[ProducesResponseType(StatusCodes.Status201Created)]
 		[ProducesResponseType(StatusCodes.Status400BadRequest)]
 		public async Task<IActionResult> GetAllAuthors()

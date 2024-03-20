@@ -6,6 +6,8 @@
 
 		IWeatherRepository WeatherRepository { get; }
 
+		ITitleRepository TitleRepository { get; }
+
 		Task SaveChanges();
 	}
 }
